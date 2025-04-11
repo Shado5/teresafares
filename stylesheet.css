@@ -214,7 +214,7 @@ nav{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-right: 30px;
+    margin: 30px;
 }
 
 .btn:hover{
