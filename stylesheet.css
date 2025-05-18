@@ -336,19 +336,22 @@ footer .column  a:hover{
 }
 
 @media (width < 600px){
-    header .image::before{
+    .nav-links{
         display: none;
     }
-
+    header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header .image{
+        grid-area: 1/1/2/2;
+    }
     .skills{
         grid-template-columns: repeat(1, 1fr);
     }
-
     .projects{
         grid-template-columns: repeat(1, 1fr);
     }
-
     footer{
-        grid-template-columns: 1fr 150px;
+        grid-template-columns: 1fr 200px;
     }
 }
