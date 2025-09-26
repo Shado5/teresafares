@@ -204,6 +204,57 @@ section .header {
     color: #a201ff;
 }
 
+.education {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.education .card {
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.education .card:hover {
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.education .card span {
+    display: inline-block;
+    background-color: #a327f1;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.education .card h4 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.education .card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.education .card a {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.education .card a:hover {
+    color: #a201ff;
+}
+
 .sub-header {
     max-width: 600px;
     margin: auto;
@@ -328,6 +379,10 @@ footer .column a:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .education {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -351,6 +406,10 @@ footer .column a:hover {
     }
 
     .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .education {
         grid-template-columns: repeat(1, 1fr);
     }
 
