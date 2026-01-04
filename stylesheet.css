@@ -372,6 +372,10 @@ footer .column a:hover {
         display: none;
     }
 
+    .container {
+        padding: 0.5rem 2rem;
+    }
+
     header {
         grid-template-columns: repeat(1, 1fr);
     }
