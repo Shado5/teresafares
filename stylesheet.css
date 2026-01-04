@@ -33,6 +33,11 @@ nav {
 
 }
 
+ul{
+    padding-left: 2rem;
+    color: #ccc;
+}
+
 .nav-logo {
     max-width: 100px;
 }
