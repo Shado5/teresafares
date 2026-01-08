@@ -16,4 +16,4 @@ IT professional with experience in systems support, infrastructure, and programm
 - Cert IV & Cert III in Information and Communications Technology (TAFE)  
 - Bachelor of Games Development (SAE University College)
 
-Portfolio:[ https://shado5.github.io](https://teresafares.com/)
+Portfolio: https://teresafares.com/
