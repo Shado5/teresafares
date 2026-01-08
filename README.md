@@ -21,7 +21,7 @@ The code is intentionally public for transparency and demonstration purposes.
 - GitHub Pages  
 
 ## Project Structure
-
+```
 /
 ├── Documents/
 ├── images/
@@ -29,7 +29,7 @@ The code is intentionally public for transparency and demonstration purposes.
 ├── index.html
 ├── script.js
 └── README.md
-
+```
 
 ## Features
 
