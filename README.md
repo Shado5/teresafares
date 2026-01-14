@@ -1,4 +1,4 @@
-# Hi, I’m Teresa 👋
+# Hi, I’m Teresa
 
 IT professional with experience in systems support, infrastructure, and programming. I focus on building practical solutions, automating workflows, and maintaining reliable IT environments.
 
