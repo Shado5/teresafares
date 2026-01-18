@@ -274,6 +274,13 @@ section .header {
     gap: 2rem;
 }
 
+.projects .card:last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 50%;
+   
+}
+
 .projects .card {
     padding: 3rem 2rem;
     background-color: #27272a;
